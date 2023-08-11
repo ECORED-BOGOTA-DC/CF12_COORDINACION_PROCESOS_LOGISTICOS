@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 Los procesos de importación implican la selección de productos, negociación con proveedores extranjeros, obtención de documentos, despacho aduanero, recepción y almacenamiento de la mercancía, y distribución a los clientes. Cada etapa es esencial para asegurar una importación exitosa.
 
     .row.justify-content-center
       .col-lg-10.mb-5
