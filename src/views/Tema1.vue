@@ -446,7 +446,7 @@
             .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img38.svg' alt="Imagen decorativa")
             .col-lg-8(data-aos="fade-left")
-              .h4.text-secundario.text-start Indicador de rentabilidad
+              .h4.text-secundario.text-start Indicador de inventarios y activos
               ul.lista-ul--color.text-start
                 li(style="margin-bottom: 2px")
                   i.fas.fa-caret-square-right(style="color: #FE7062;")
@@ -521,6 +521,8 @@
             thead(style="border-color: #E9F0FE")
               tr
                 th(style="background-color: #E9F0FE; font-size: 18px;" colspan="2") Medios de pago
+              tr
+                th(style="background-color: #E9F0FE; font-size: 18px;" colspan="2") Simples
         .tabla-a.color-primario
           table(data-aos="zoom-in"  alt="Texto alternativo tabla")
             caption Nota. <span style="font-weight: 400">Medios de pago - simples y documentarios.</span>
@@ -585,7 +587,6 @@
 
     .row.justify-content-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
-        .h5.text-center.mb-4 A continuación, se describen los tipos de riesgos en el comercio internacional:
         img(src='@/assets/curso/tema1/img47.png' alt="Imagen decorativa")
       .col-lg-9(data-aos="fade-left")
         LineaTiempoD.color-secundario
@@ -672,16 +673,16 @@ export default {
         imagen: require('@/assets/curso/tema1/img31.png'),
       },
       {
-        titulo: 'Fluctuación',
-        texto:
-          'En el mercado económico global, la fluctuación hace referencia a la pérdida monetaria que se da por la reducción de una cantidad de la producción de mercancías o de la aplicación de un <em>stock</em>, el cual trata de la diferencia existente entre lo que reflejan los libros de inventarios y la existencia real (física) de los diferentes bienes. También se dice que está reflejada en el dinero, entre lo que se tiene y con lo que se debería contar de acuerdo con los resultados arrojados por los inventarios.',
-        imagen: require('@/assets/curso/tema1/img32.png'),
-      },
-      {
         titulo: 'Riesgo cambiario',
         texto:
           'Se reconoce en el mercado económico como el encargado de hacer referencia a los posibles cambios de cotización de una divisa frente a otra, y se va dando de acuerdo con las actividades representadas en las diferentes transacciones financieras de monedas extranjeras, ya sea en el propio país o en el exterior.',
         imagen: require('@/assets/curso/tema1/img33.png'),
+      },
+      {
+        titulo: 'Fluctuación',
+        texto:
+          'En el mercado económico global, la fluctuación hace referencia a la pérdida monetaria que se da por la reducción de una cantidad de la producción de mercancías o de la aplicación de un <em>stock</em>, el cual trata de la diferencia existente entre lo que reflejan los libros de inventarios y la existencia real (física) de los diferentes bienes. También se dice que está reflejada en el dinero, entre lo que se tiene y con lo que se debería contar de acuerdo con los resultados arrojados por los inventarios.',
+        imagen: require('@/assets/curso/tema1/img32.png'),
       },
     ],
     datosSlyderA: [
@@ -714,7 +715,7 @@ export default {
         titulo:
           '¿Cuáles son los intermediarios participantes del mercado cambiario?',
         texto:
-          'Banco de comercio<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>Banco hipotecario<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>Corporación financiera<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>Compañía de financiamiento comercial<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>La Financiera Energética Nacional (FEN)<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>El Banco de Comercio Exterior de Colombia S. A.<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>Bancoldex<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>La cooperativa financiera<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>La sociedad comisionista de bolsa<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>Las sociedades de intermediación cambiaria y de servicios financieros especiales.<br><br>(DIAN, s. f.)',
+          '<i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>Banco de comercio<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>Banco hipotecario<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>Corporación financiera<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>Compañía de financiamiento comercial<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>La Financiera Energética Nacional (FEN)<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>El Banco de Comercio Exterior de Colombia S. A.<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>Bancoldex<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>La cooperativa financiera<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>La sociedad comisionista de bolsa<br><br><i class="fas fa-check-circle" style="color: #57DBD8; margin-right: 5px;"></i>Las sociedades de intermediación cambiaria y de servicios financieros especiales.<br><br>(DIAN, s. f.)',
         imagen: require('@/assets/curso/tema1/img54.png'),
       },
     ],
