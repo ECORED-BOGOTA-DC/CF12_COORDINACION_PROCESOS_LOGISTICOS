@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Mercado financiero internacional
@@ -14,7 +14,7 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p.mb-0 Los mercados financieros internacionales se relacionan a la agrupación de inversionistas e instituciones de varias nacionalidades cuyo objetivo o fin es participar en la compra y venta de activos financieros como acciones, bonos, derivados, entre otros; dando un avance en la participación de los TLC.
 
-    .h5.text-center.mb-5 Algunos términos involucrados son:
+    .h5.text-center.mb-5(data-aos="fade-left") Algunos términos involucrados son:
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta--boton.color-acento-contenido.BGRS01.p-5(data-aos="fade-right")
@@ -36,7 +36,7 @@
     #t_1_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 1.1 Conceptos
 
-    .h5.text-center.mb-5 Los siguientes son algunos conceptos relacionados con mercado:
+    .h5.text-center.mb-5(data-aos="fade-left") Los siguientes son algunos conceptos relacionados con mercado:
 
     TabsA.color-acento-contenido.mb-5(data-aos="zoom-in")
       .tarjeta.BG03.p-4(titulo="Mercado")
@@ -101,24 +101,24 @@
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema1/img08.png' alt="Imagen decorativa")
 
-    p Se puede decir que entre más competencia exista en el mercado, mejor se reconoce que la base del mercado es el intercambio, ya que el hombre, desde la antigüedad, advirtió la necesidad de intercambiar bienes y servicios, pues esto mejora las condiciones de vida.
-    p.mb-5 Primero, fue el trueque, aplicado en la antigüedad, donde se intercambiaron cosas y servicios entre sí para poder sobrevivir y satisfacer las necesidades. Luego, el mundo moderno y global, donde se ve la gran importancia y el papel que juega el mercado financiero internacional, gracias a la apertura de los TLC.
+    p(data-aos="fade-right") Se puede decir que entre más competencia exista en el mercado, mejor se reconoce que la base del mercado es el intercambio, ya que el hombre, desde la antigüedad, advirtió la necesidad de intercambiar bienes y servicios, pues esto mejora las condiciones de vida.
+    p.mb-5(data-aos="fade-right") Primero, fue el trueque, aplicado en la antigüedad, donde se intercambiaron cosas y servicios entre sí para poder sobrevivir y satisfacer las necesidades. Luego, el mundo moderno y global, donde se ve la gran importancia y el papel que juega el mercado financiero internacional, gracias a la apertura de los TLC.
 
-    .h5.text-center.mb-5 En la siguiente imagen, se encuentran diferentes tipos y modelos de mercado con base en los productos:
+    .h5.text-center.mb-5(data-aos="fade-left") En la siguiente imagen, se encuentran diferentes tipos y modelos de mercado con base en los productos:
 
     .row.justify-content-center.mb-5
       .col-lg.d-lg-flex.d-none
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img09.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema1/img09.svg' alt="muestra imagen de tipos y modelos de mercado relacionadas con productos de  los siguientes términos:<br>-Productos para el consumo<br>-Productos de uso propio<br>-Productos industriales<br>-Servicios<br>-Mercados financieros")
       .col-md-8.col-sm-10.d-lg-none.d-flex
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img10.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema1/img10.svg' alt="muestra imagen de tipos y modelos de mercado relacionadas con productos de  los siguientes términos:<br>-Productos para el consumo<br>-Productos de uso propio<br>-Productos industriales<br>-Servicios<br>-Mercados financieros")
 
-    p El mercado financiero internacional se reconoce como el conjunto de transacciones financieras de una economía, mediante determinados instrumentos que permiten la transferencia de fondos temporales libres entre entes económicos.
+    p(data-aos="fade-right") El mercado financiero internacional se reconoce como el conjunto de transacciones financieras de una economía, mediante determinados instrumentos que permiten la transferencia de fondos temporales libres entre entes económicos.
     .cajon.color-primario.p-4.mb-5(data-aos="flip-up")
       p.mb-0 En el mercado global, existe variedad en el desarrollo de los diferentes estilos de compra de bienes y servicios que se aplican en las diferentes plazas, debido al avance tecnológico, donde se debe enfocar más en expandir la industria colombiana, logrando el cumplimiento de las metas u objetivos, gracias a que el país cuenta con la apertura de la política de los TLC.
 
-    .h5.text-center.mb-5 A continuación, se encuentra la clasificación de los tipos de mercados según el comprador:
+    .h5.text-center.mb-5(data-aos="fade-left") A continuación, se encuentra la clasificación de los tipos de mercados según el comprador:
 
     .row.justify-content-center.mb-5
       .col-lg-6
@@ -126,8 +126,7 @@
           h5 Figura 1.
           span Tipos de mercado dependiendo del comprador
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img11.svg' alt="Imagen decorativa")
-
+          img(src='@/assets/curso/tema1/img11.svg' alt="Muestra tipos de mercado dependiendo del comprador<br>Distribuidor<br>Comprador industrial<br>Comprador gubernamental<br>Consumidor<br>Mercado de trabajo")
     
     .row.justify-content-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
@@ -148,7 +147,7 @@
             i.fas.fa-caret-square-right(style="color: #FE7062;")
             | Mercado de derivados.
 
-    p.mb-5 Se reconocen e identifican los diferentes mercados bancarios, entre ellos, los bancos de inversión, los bancos comerciales. Los mercados no bancarios están relacionados como: renta variable y renta fija.  Ver información complementaria en la siguiente tabla:
+    p.mb-5(data-aos="fade-right") Se reconocen e identifican los diferentes mercados bancarios, entre ellos, los bancos de inversión, los bancos comerciales. Los mercados no bancarios están relacionados como: renta variable y renta fija.  Ver información complementaria en la siguiente tabla:
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -156,25 +155,25 @@
           h5 Tabla 1.
           span Tipos de mercado financiero
         .tabla-a.color-primario
-          table(data-aos="zoom-in"  alt="Texto alternativo tabla")
+          table(alt="Texto alternativo tabla")
             thead(style="border-color: #E9F0FE")
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #E9F0FE; width: 30%; font-size: 18px;") Tipo de mercado financiero
                 th(style="background-color: #E9F0FE; width: 70%; font-size: 18px;") Ejemplos
             tbody
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #FFF;").text-center Mercados capitales
                 td(style="background-color: #FFF;") Compra y venta de acciones y deuda pública.
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #F9FBFF;").text-center Mercados bursátiles
                 td(style="background-color: #F9FBFF;") Son todos aquellos que les permiten a los inversionistas la compra y venta de acciones de empresas.
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #FFF;").text-center Mercados monetarios
                 td(style="background-color: #FFF;") Dedicados a la actividad de prestar y solicitar préstamos a corto plazo.
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #F9FBFF;").text-center Mercados de bonos
                 td(style="background-color: #F9FBFF;") Dirigidos a las actividades desarrolladas por los inversores, comprar deuda pública, préstamos de dinero a los entes gubernamentales.
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #FFF;").text-center Mercado Forex e intercambiario
                 td(style="background-color: #FFF;") Mercado financiero dedicado a la compra y venta de divisas, como dólares con euros y viceversa. En la actividad de mercados intercambiarios solo los bancos son los que participan en la actividad.
 
@@ -210,7 +209,7 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Una economía depende principalmente de las interacciones entre los compradores y los vendedores, ya que ellos son los encargados de transferir los recursos, favoreciendo, así, e incrementando el libre mercado, donde el sistema financiero es el marco institucional en el que se agrupan instituciones, agentes, activos y mercados, logrando mejorar su finalidad de transmitir los recursos financieros que proceden de las unidades económicas, en sí reactivando el mercado financiero internacional a sus agentes participantes en busca de una mejor economía financiera para el país.
 
-    .h5.text-center.mb-5 Componentes esenciales de un sistema financiero:
+    .h5.text-center.mb-5(data-aos="fade-left") Componentes esenciales de un sistema financiero:
 
     .row.justify-content-center.mb-5
       .col-xl.col-md-6.mb-xl-0.mb-4(data-aos="fade-right")
@@ -232,8 +231,8 @@
           .h5.text-center Mercados
           p.mb-0 Proceden o procesan las transacciones financieras del mercado internacional, cuya finalidad es determinar el elemento formal o convencional.
 
-    p.mb-5 En el mercado global, el propósito del sistema financiero está relacionado y consiste en la canalización de los recursos financieros o ahorros producidos, logrando que los agentes participantes que tienen la capacidad de financiación puedan brindar una mejor posibilidad a los que tienen la necesidad de financiación (prestamista / prestatario), para así poder cubrir alguna necesidad de inversión que se presente en el mercado actual.
-    .h5.text-center.mb-5 Participantes de los mercados financieros: 
+    p.mb-5(data-aos="fade-right") En el mercado global, el propósito del sistema financiero está relacionado y consiste en la canalización de los recursos financieros o ahorros producidos, logrando que los agentes participantes que tienen la capacidad de financiación puedan brindar una mejor posibilidad a los que tienen la necesidad de financiación (prestamista / prestatario), para así poder cubrir alguna necesidad de inversión que se presente en el mercado actual.
+    .h5.text-center.mb-5(data-aos="fade-left") Participantes de los mercados financieros: 
 
     .BGIMG01.px-md-5.px-4.mb-5
       .row.justify-content-center
@@ -280,12 +279,12 @@
                 img(src='@/assets/curso/tema1/img22.svg' alt='Imagen decorativa')
             .h5.text-center.text-small.mb-0 Las administradoras de los fondos de inversión
 
-    p.mb-5 El mercado financiero es el mecanismo que permite el desarrollo de la actividad de vender y comprar fácilmente los títulos financieros (bonos y acciones), las materias primas y otros productos de valor, mediante transacciones de bajos costes, en el mercado global, ya sea por medio de un espacio físico o virtual.  La siguiente imagen muestra un esquema de estos participantes:       
+    p.mb-5(data-aos="fade-right") El mercado financiero es el mecanismo que permite el desarrollo de la actividad de vender y comprar fácilmente los títulos financieros (bonos y acciones), las materias primas y otros productos de valor, mediante transacciones de bajos costes, en el mercado global, ya sea por medio de un espacio físico o virtual.  La siguiente imagen muestra un esquema de estos participantes:       
 
     .row.justify-content-center.mb-5
       .col-lg-8
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img23.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema1/img23.svg' alt="Muestra imagen mercado de valores con el esquema de 4 participantes<br>1. Emisores<br>2. Proveedores de infraestructura<br>3. Intermediario<br>4. Inversionistas")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade-right")
@@ -311,7 +310,7 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img26.png' alt="Imagen decorativa")
       
-    p De acuerdo con lo establecido por el mercado financiero internacional, una de las necesidades del SMI es la que se deriva del manejo de la gran variedad de monedas nacionales que se utilizan en las transacciones reales o financieras por los distintos agentes del mercado industrial global.
+    p(data-aos="fade-right") De acuerdo con lo establecido por el mercado financiero internacional, una de las necesidades del SMI es la que se deriva del manejo de la gran variedad de monedas nacionales que se utilizan en las transacciones reales o financieras por los distintos agentes del mercado industrial global.
 
     .row.justify-content-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
@@ -335,22 +334,22 @@
           h5 Tabla 2.
           span Ventajas y desventajas SMI
         .tabla-a.color-primario
-          table(data-aos="zoom-in"  alt="Texto alternativo tabla")
+          table(alt="Texto alternativo tabla")
             thead(style="border-color: #E9F0FE")
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #E9F0FE; font-size: 18px;") Ventajas
                 th(style="background-color: #E9F0FE; font-size: 18px;") Desventajas
             tbody
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #FFF;") Las depreciaciones son reversibles en el mercado global.
                 td(style="background-color: #FFF;") La flexibilidad puede ser inflacionaria.
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #F9FBFF;") No debe existir necesidad en las grandes reservas internacionales del mercado global.
                 td(style="background-color: #F9FBFF;") Solo se interesa y se encarga de beneficiar a los países productores y poseedores de oro.
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #FFF;") Fortalece el crecimiento de los mercados financieros internacionales.
                 td(style="background-color: #FFF;") La cantidad del dinero que circula en el país se encuentra limitada por la cantidad de oro existente.
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #F9FBFF;") Fomentar e incrementar el ahorro y la inversión en el país.
                 td(style="background-color: #F9FBFF;")
 
@@ -365,8 +364,8 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 En el mercado internacional, las empresas cuya actividad está relacionada con la producción y comercialización de productos tangibles o intangibles, siendo partícipes de los TLC, han logrado una participación alta, dejando muy claro que la tasa de cambio se encarga de mostrar la interacción existente del movimiento entre dos o más monedas extranjeras.
     
-    p.mb-5 En Colombia, se puede relacionar a la cantidad de pesos que se debe pagar por una unidad de moneda extranjera, por ejemplo, tomando como base la moneda extranjera representada por el dólar, ya que es una de las divisas de mayor uso en el mercado internacional.
-    .h5.text-center.mb-5 A continuación, se describen algunos conceptos relacionados con esta temática:
+    p.mb-5(data-aos="fade-right") En Colombia, se puede relacionar a la cantidad de pesos que se debe pagar por una unidad de moneda extranjera, por ejemplo, tomando como base la moneda extranjera representada por el dólar, ya que es una de las divisas de mayor uso en el mercado internacional.
+    .h5.text-center.mb-5(data-aos="fade-left") A continuación, se describen algunos conceptos relacionados con esta temática:
 
     .BGM03.p-md-5.p-4.mb-5(data-aos="zoom-in")
       .row.justify-content-center
@@ -377,8 +376,8 @@
     #t_1_5.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 1.5 Devaluación y revaluación de la moneda
     
-    p.mb-5 En la mayoría de los casos, son los conceptos más útiles usados en el mercado financiero global.  Una moneda se devalúa cuando se dan muchas más monedas locales por una moneda extranjera, lo cual significa que esta devaluación de la moneda local, en este caso el peso colombiano, estaría perdiendo competitividad en el mercado, ya que vale menos que la moneda extranjera.
-    .h5.text-center.mb-5 La siguiente información ilustra estos conceptos:
+    p.mb-5(data-aos="fade-right") En la mayoría de los casos, son los conceptos más útiles usados en el mercado financiero global.  Una moneda se devalúa cuando se dan muchas más monedas locales por una moneda extranjera, lo cual significa que esta devaluación de la moneda local, en este caso el peso colombiano, estaría perdiendo competitividad en el mercado, ya que vale menos que la moneda extranjera.
+    .h5.text-center.mb-5(data-aos="fade-left") La siguiente información ilustra estos conceptos:
 
     TabsB.color-acento-contenido.mb-5(data-aos="zoom-in")
       .BG01.px-4.py-4.py-md-5(titulo="Devaluación" :icono="require('@/assets/curso/tema1/img34.svg')")
@@ -483,7 +482,7 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p.mb-0 Es un instrumento que se utiliza para realizar la actividad de adquisición de un bien o servicio en el mercado; en pocas palabras, el medio de pago es aquel que se utiliza cuando se realiza la actividad de comprar un producto; por ejemplo, cuando se realiza una actividad de compra en un supermercado, al realizar el pago, se utiliza un medio de pago, ya sea efectivo, tarjeta débito, crédito, entre otros.
 
-    p.mb-5 Se recomienda a todas las organizaciones, a la hora de realizar importaciones o exportaciones, tener un diseño propio estratégico de mercadeo internacional, que cumpla con los estándares de calidad para el desarrollo de las actividades, como los medios de pago internacionales. En este caso, se aplica con las entidades o personas con las que se va a interactuar en el desarrollo del proceso de traslado y entrega final de las mercancías en el lugar indicado. Es muy preciso tener presente siempre cómo encontrar un agente comercial con quien se llevará a cabo la actividad, ya sea de compra o venta.
+    p.mb-5(data-aos="fade-right") Se recomienda a todas las organizaciones, a la hora de realizar importaciones o exportaciones, tener un diseño propio estratégico de mercadeo internacional, que cumpla con los estándares de calidad para el desarrollo de las actividades, como los medios de pago internacionales. En este caso, se aplica con las entidades o personas con las que se va a interactuar en el desarrollo del proceso de traslado y entrega final de las mercancías en el lugar indicado. Es muy preciso tener presente siempre cómo encontrar un agente comercial con quien se llevará a cabo la actividad, ya sea de compra o venta.
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
@@ -517,44 +516,44 @@
           h5 Tabla 3.
           span Tipos y medios de pago
         .tabla-a.color-primario
-          table(data-aos="zoom-in"  alt="Texto alternativo tabla")
+          table(alt="Texto alternativo tabla")
             thead(style="border-color: #E9F0FE")
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #E9F0FE; font-size: 18px;" colspan="2") Medios de pago
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #E9F0FE; font-size: 18px;" colspan="2") Simples
         .tabla-a.color-primario
-          table(data-aos="zoom-in"  alt="Texto alternativo tabla")
+          table(alt="Texto alternativo tabla")
             caption Nota. <span style="font-weight: 400">Medios de pago - simples y documentarios.</span>
             thead(style="border-color: #FFF")
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #FFF; width: 30%;").text-center Billete
                 td(style="background-color: #FFF; width: 70%;") Papel que representa el medio de pago en efectivo entre dos o más personas o entidades que realizan una actividad, ya sea por compra o venta de productos o servicios.
             tbody
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #F9FBFF;").text-center Cheque bancario
                 td(style="background-color: #F9FBFF;") Documento o título valor mediante el cual una persona llamada girador ordena a la entidad bancaria (girado) que realice la actividad de cancelar una determinada cantidad de dinero a la orden de un tercero, llamado beneficiario.
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #FFF;").text-center Orden de pago simple
                 td(style="background-color: #FFF;") Consiste en dar una orden de pago al banco, cuando se es el comprador, donde se ordena que se efectúe un abono o pago total en la cuenta de otro banco (corresponsal) de un beneficiario extranjero.
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #F9FBFF;").text-center Remesa simple
                 td(style="background-color: #F9FBFF;") Se representa en letras de cambio, giros, cheques, pagarés, recibos, etc., que gira el exportador a cargo del importador.
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #E9F0FE; font-size: 18px;" colspan="2") Medios Documentarios
-              tr
+              tr(data-aos="fade-right")
                 td(style="background-color: #FFF;" colspan="2") Se encuentran relacionados con la actividad financiera internacional de diligenciamiento y entrega de los documentos, se realiza con la actividad de entrega de la mercancía. Entre ellos se encuentran:
               
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #FFF;").text-center La orden de pago documentario
                 td(style="background-color: #FFF;") Está representada en una orden de mandato que realiza el importador a su entidad bancaria, con el fin de realizar un pago al beneficiario de cierta cantidad de dinero.
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #F9FBFF;").text-center La remesa documentaria
                 td(style="background-color: #F9FBFF;") Está relacionada con la actividad financiera donde el vendedor (exportador) entrega a su banco los documentos necesarios para la expedición de la mercancía comercializada, con orden de que los entregue al comprador (importador) como contrapago de los mismos.
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #FFF;").text-center Crédito documental
                 td(style="background-color: #FFF;") Es emitido por una entidad financiera solvente.  Es uno de los medios de pago más seguros para ambas partes.
-              tr
+              tr(data-aos="fade-right")
                 th(style="background-color: #F9FBFF;").text-center Garantía bancaria
                 td(style="background-color: #F9FBFF;") Está relacionada como aquella donde se elabora un contrato como garantía de la entidad bancaria, la cual asume inmediatamente el papel de avalista o garante.
 
@@ -583,7 +582,7 @@
               .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
                 img(src='@/assets/curso/tema1/img46.svg' alt="Imagen decorativa")
 
-    p.mb-5 A continuación, se describen los tipos de riesgos en el comercio internacional:
+    p.mb-5(data-aos="fade-right") A continuación, se describen los tipos de riesgos en el comercio internacional:
 
     .row.justify-content-center.mb-5
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
@@ -616,7 +615,7 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img49.png' alt="Imagen decorativa")
   
-    p.mb-5 El sistema financiero, de acuerdo con las normas, exige responsabilidades que corresponden al cumplimiento de normas, reglas y leyes. Ser un buen usuario del sistema financiero está sujeto a que se debe tener toda la información, tanto personal como de la empresa, en orden, conocer y sustentar la capacidad de respuesta a cualquier obligación financiera, sustentar su actividad económica u operacional en el mercado global, dentro del marco de legalidad.
+    p.mb-5(data-aos="fade-right") El sistema financiero, de acuerdo con las normas, exige responsabilidades que corresponden al cumplimiento de normas, reglas y leyes. Ser un buen usuario del sistema financiero está sujeto a que se debe tener toda la información, tanto personal como de la empresa, en orden, conocer y sustentar la capacidad de respuesta a cualquier obligación financiera, sustentar su actividad económica u operacional en el mercado global, dentro del marco de legalidad.
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
@@ -638,8 +637,8 @@
     #t_1_10.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 1.10 Régimen cambiario colombiano
     
-    p Según la Dirección de Impuestos y Aduanas Nacionales (DIAN), es reconocido como una actividad de vender, comprar o transferir divisas, pero en algunos casos, se puede abonar o disponer de moneda legal colombiana en desarrollo de las diferentes operaciones de cambio celebradas por conducto de los intermediarios del mercado cambiario. (DIAN, s. f.)
-    .h5.text-center.mb-5 Para explicar con mayor detalle este componente, se hará a través del planteamiento de las siguientes preguntas:
+    p(data-aos="fade-right") Según la Dirección de Impuestos y Aduanas Nacionales (DIAN), es reconocido como una actividad de vender, comprar o transferir divisas, pero en algunos casos, se puede abonar o disponer de moneda legal colombiana en desarrollo de las diferentes operaciones de cambio celebradas por conducto de los intermediarios del mercado cambiario. (DIAN, s. f.)
+    .h5.text-center.mb-5(data-aos="fade-left") Para explicar con mayor detalle este componente, se hará a través del planteamiento de las siguientes preguntas:
 
     .BGM03.p-md-5.p-4.mb-5(data-aos="zoom-in")
       .row.justify-content-center

@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Distribución Física Internacional
@@ -17,16 +17,16 @@
     .row.justify-content-center.mb-5
       .col-lg-10.d-lg-flex.d-none
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema2/img02.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema2/img02.svg' alt="Imagen distribución física internacional muestra el proceso:<br>-Proveedores fabricantes-")
       .col-sm-8.d-lg-none.d-flex
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema2/img03.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema2/img03.svg' alt="Imagen distribución física internacional muestra el proceso:<br>-Proveedores fabricantes-")
     
     separador
     #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 2.1 Conceptos generales
     
-    p.mb-5 A continuación, se describen algunos conceptos relacionados con distribución internacional:
+    p.mb-5(data-aos="fade-right") A continuación, se describen algunos conceptos relacionados con distribución internacional:
 
     .BGM07.px-md-5.px-4
       .row.justify-content-center.align-items-center.mb-4
@@ -92,7 +92,7 @@
             h5 Figura 2.
             span Medios de transporte
           figure(data-aos="zoom-in")
-            img(src='@/assets/curso/tema2/img08.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/tema2/img08.svg' alt="Muestra medios de transporte:<br>-transporte marítimo<br>-transporte terrestre<br>-transporte aéreo<br>-transporte ferrovial<br>-transporte multimodal")
     
     separador
     #t_2_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -106,7 +106,7 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img09.png' alt="Imagen decorativa")
     
-    .h5.text-center.mb-5 A continuación, se describen estos parámetros y normas:
+    .h5.text-center.mb-5(data-aos="fade-left") A continuación, se describen estos parámetros y normas:
 
     .BGR08.p-4.mb-5(data-aos="zoom-in")
       LineaTiempoC.color-acento-botones(text-small)
@@ -300,7 +300,7 @@
     #t_2_5.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 2.5 Costos de importación
     
-    p.mb-5 El costo de importación está constituido por el precio origen de compra. Se debe realizar el costeo de importación porque es necesario saber cuánto vale el producto puesto en origen y cuánto vale puesto en el local de la empresa, incluso, aquí se puede incluir todo lo que se ha pagado para que el producto llegue al país destino, como:
+    p.mb-5(data-aos="fade-right") El costo de importación está constituido por el precio origen de compra. Se debe realizar el costeo de importación porque es necesario saber cuánto vale el producto puesto en origen y cuánto vale puesto en el local de la empresa, incluso, aquí se puede incluir todo lo que se ha pagado para que el producto llegue al país destino, como:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
@@ -342,7 +342,7 @@
     #t_2_6.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 2.6 Simulador de costos de Procolombia DFI
     
-    p.mb-5 Los simuladores de costos logísticos se reconocen como una herramienta que ofrece Procolombia a los exportadores colombianos con el único propósito de apoyarles en la realización del análisis de costos de DFI.
+    p.mb-5(data-aos="fade-right") Los simuladores de costos logísticos se reconocen como una herramienta que ofrece Procolombia a los exportadores colombianos con el único propósito de apoyarles en la realización del análisis de costos de DFI.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -396,7 +396,7 @@
           .tarjeta.BGR05.p-4
             p.ms-5.mb-0 En el #[em marketing], permiten identificar el público objetivo, sus necesidades y tendencias relacionadas con el proceso.
 
-    .h5.text-center.mb-5 En la aplicación de los procesos logísticos se identifican y relacionan las siguientes TIC:
+    .h5.text-center.mb-5(data-aos="fade-left") En la aplicación de los procesos logísticos se identifican y relacionan las siguientes TIC:
 
     LineaTiempoD.color-secundario(data-aos="zoom-in")
       .row(numero="1" titulo="Aprovisionamiento")
