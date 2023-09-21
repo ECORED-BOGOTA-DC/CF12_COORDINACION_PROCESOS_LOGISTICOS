@@ -374,7 +374,7 @@ export default {
         },
         {
           nombre: 'Nelly Parra Guarín',
-          cargo: 'Adecuación instruccional - 2023',
+          cargo: 'Adecuación instruccional',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
@@ -385,13 +385,13 @@ export default {
       autores: [
         {
           nombre: 'Eulises Orduz Amézquita',
-          cargo: 'Diseño web-2023',
+          cargo: 'Diseño web',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollo Fullstack-2023',
+          cargo: 'Desarrollo Fullstack',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
