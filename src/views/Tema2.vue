@@ -124,7 +124,7 @@
               li(style="margin-bottom: 2px")
                 i.fas.fa-caret-square-right(style="color: #FE7062;")
                 p.mb-0 #[strong ¿Qué beneficios se obtienen?] La devolución o descuento del IVA.
-            p.mb-0 Para utilizar las aduanas colombianas, la empresa debe estar inscrita en el Régimen Común, según la reforma tributaria 863 en su artículo. 49 de diciembre de 2003.
+            p.mb-0 Para utilizar las aduanas colombianas, la empresa debe estar inscrita en el Régimen Común, según la reforma tributaria 863 en su artículo 49, de diciembre de 2003.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema2/img10.png' alt="Imagen decorativa")
         .row.justify-content-center(titulo="Calificación")
