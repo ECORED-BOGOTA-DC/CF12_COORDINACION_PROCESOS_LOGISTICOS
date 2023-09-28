@@ -89,7 +89,7 @@
       .row.justify-content-center
         .col-lg-6
           .titulo-sexto.color-acento-botones(data-aos="fade-right")
-            h5 Figura 2.
+            h5 Figura 3.
             span Medios de transporte
           figure(data-aos="zoom-in")
             img(src='@/assets/curso/tema2/img08.svg' alt="Muestra medios de transporte:<br>-transporte marítimo<br>-transporte terrestre<br>-transporte aéreo<br>-transporte ferrovial<br>-transporte multimodal")
@@ -404,7 +404,7 @@
            ul.lista-ul--color
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #1A0F91;")
-              p.mb-0 #[strong #[em Electronic Data Interchange] (EDI)]: intercambio electrónico de datos, por ejemplo los utilizados para realizar transacciones bancarias a través de Internet.
+              p.mb-0 #[strong #[em Electronic Data Interchange] (EDI)]: intercambio electrónico de datos, por ejemplo, los utilizados para realizar transacciones bancarias a través de Internet.
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #1A0F91;")
               p.mb-0 #[strong #[em E-Procurement]]: es la herramienta más útil en el proceso que busca automatizar y optimizar los procesos relacionados con las compras, mediante el #[em software] e Internet. Con la aplicación de las TIC, se buscan las interrelaciones de la dinámica que debe existir para mejorar la comunicación entre el comprador y el vendedor, logrando obtener mejores resultados.

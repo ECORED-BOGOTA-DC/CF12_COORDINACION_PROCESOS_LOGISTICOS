@@ -283,7 +283,7 @@ export default {
     {
       termino: '<em>Pallet</em>',
       significado:
-        'es una estructura de agrupación de carga, fabricada con madera, su funcionalidad es brindar un soporte de apoyo en la actividad de carga de mercancías. Generalmente, se utiliza para el cuidado de los diferentes productos de consumo, en este caso, las frutas; por lo mismo, los pallet tienen forma rectangular o cuadrada, esto genera que sea más fácil su manipulación.',
+        'es una estructura de agrupación de carga, fabricada con madera, su funcionalidad es brindar un soporte de apoyo en la actividad de carga de mercancías. Generalmente, se utiliza para el cuidado de los diferentes productos de consumo, en este caso, las frutas; por lo mismo, los <i>pallet</i> tienen forma rectangular o cuadrada, esto genera que sea más fácil su manipulación.',
     },
     {
       termino: 'Tratado',
@@ -340,7 +340,7 @@ export default {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital- Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -350,22 +350,26 @@ export default {
         {
           nombre: 'Gustavo Alonso Pineda ',
           cargo: 'Experto Temático en Diseño Curricular',
-          centro: 'Centro de la Industria, la Empresa y los Servicios',
+          centro:
+            'Regional Huila- Centro de la Industria, la Empresa y los Servicios',
         },
         {
           nombre: 'Luis Fernando Botero Mendoza',
           cargo: 'Diseñador Instruccional',
-          centro: 'Centro para la Industria de la Comunicación Gráfica',
+          centro:
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
         },
         {
           nombre: 'Gustavo Santis Mancipe',
           cargo: 'Diseñador instruccional',
-          centro: 'Centro de Diseño y Metrología Regional distrito Capital',
+          centro:
+            'Regional Distrito Capital - Centro de Diseño y Metrología Regional distrito Capital',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Revisora metodológica y pedagógica',
-          centro: 'Regional distrito Capital Centro de Diseño y Metrología',
+          centro:
+            'Regional Distrito Capital - Regional distrito Capital Centro de Diseño y Metrología',
         },
         {
           nombre: 'Darío González',
@@ -387,31 +391,31 @@ export default {
           nombre: 'Eulises Orduz Amézquita',
           cargo: 'Diseño web',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
           cargo: 'Desarrollo Fullstack',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
           cargo: 'Animación y producción audiovisual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
           cargo: 'Animación y producción audiovisual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animación y producción audiovisual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -422,19 +426,19 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Leyson Fabian Castaño Pérez',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },

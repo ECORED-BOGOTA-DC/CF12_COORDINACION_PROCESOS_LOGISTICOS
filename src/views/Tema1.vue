@@ -283,6 +283,9 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
+        .titulo-sexto.color-acento-botones(data-aos="fade-right")
+          h5 Figura 2.
+          span Participantes en los mercados financieros
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img23.svg' alt="Muestra imagen mercado de valores con el esquema de 4 participantes<br>1. Emisores<br>2. Proveedores de infraestructura<br>3. Intermediario<br>4. Inversionistas")
 
@@ -341,17 +344,36 @@
                 th(style="background-color: #E9F0FE; font-size: 18px;") Desventajas
             tbody
               tr(data-aos="fade-right")
-                td(style="background-color: #FFF;") Las depreciaciones son reversibles en el mercado global.
-                td(style="background-color: #FFF;") La flexibilidad puede ser inflacionaria.
-              tr(data-aos="fade-right")
-                td(style="background-color: #F9FBFF;") No debe existir necesidad en las grandes reservas internacionales del mercado global.
-                td(style="background-color: #F9FBFF;") Solo se interesa y se encarga de beneficiar a los países productores y poseedores de oro.
-              tr(data-aos="fade-right")
-                td(style="background-color: #FFF;") Fortalece el crecimiento de los mercados financieros internacionales.
-                td(style="background-color: #FFF;") La cantidad del dinero que circula en el país se encuentra limitada por la cantidad de oro existente.
-              tr(data-aos="fade-right")
-                td(style="background-color: #F9FBFF;") Fomentar e incrementar el ahorro y la inversión en el país.
-                td(style="background-color: #F9FBFF;")
+                td(style="background-color: #FFF;") 
+                  ul.lista-ul
+                    li 
+                      i.lista-ul__vineta
+                      | Las depreciaciones son reversibles en el mercado global.
+
+                    li 
+                      i.lista-ul__vineta
+                      | No debe existir necesidad en las grandes reservas internacionales del mercado global.
+                    li 
+                      i.lista-ul__vineta
+                      | Fortalece el crecimiento de los mercados financieros internacionales.
+                    li 
+                      i.lista-ul__vineta
+                      | Fomentar e incrementar el ahorro y la inversión en el país.
+                    
+                td(style="background-color: #FFF;")
+                  ul.lista-ul
+                    li 
+                      i.lista-ul__vineta
+                      | La flexibilidad puede ser inflacionaria.
+
+                    li 
+                      i.lista-ul__vineta
+                      | Solo se interesa y se encarga de beneficiar a los países productores y poseedores de oro.
+                    li 
+                      i.lista-ul__vineta
+                      | La cantidad del dinero que circula en el país se encuentra limitada por la cantidad de oro existente.
+
+              
 
     separador
     #t_1_4.titulo-segundo.color-acento-botones(data-aos="fade-right")
